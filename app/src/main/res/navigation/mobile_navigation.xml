@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/timeSlotDetailsFragment"
+        android:name="it.polito.timebank.ui.timeslot.TimeSlotDetailsFragment"
+        android:label="TimeSlotDetailsFragment"
+        tools:layout="@layout/time_slot_details_fragment" >
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_timeSlotListFragment"
+            app:destination="@id/timeSlotListFragment" />
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_timeSlotEditFragment"
+            app:destination="@id/timeSlotEditFragment" />
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_skillFragment"
+            app:destination="@id/skillFragment" />
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_showProfileFragment"
+            app:destination="@id/showProfileFragment" />
+        <action
+            android:id="@+id/action_timeSlotDetailsFragment_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeSlotEditFragment"
+        android:name="it.polito.timebank.ui.timeslot.TimeSlotEditFragment"
+        android:label="TimeSlotEditFragment" >
+        <action
+            android:id="@+id/action_timeSlotEditFragment_to_timeSlotListFragment"
+            app:destination="@id/timeSlotListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeSlotListFragment"
+        android:name="it.polito.timebank.ui.timeslot.TimeSlotListFragment"
+        android:label="TimeSlotListFragment" >
+        <action
+            android:id="@+id/action_timeSlotListFragment_to_timeSlotDetailsFragment"
+            app:destination="@id/timeSlotDetailsFragment" />
+        <action
+            android:id="@+id/action_timeSlotListFragment_to_timeSlotEditFragment"
+            app:destination="@id/timeSlotEditFragment" />
+        <action
+            android:id="@+id/action_timeSlotListFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showProfileFragment"
+        android:name="it.polito.timebank.ui.profile.ShowProfileFragment"
+        android:label="show_profile_fragment"
+        tools:layout="@layout/show_profile_fragment" >
+        <action
+            android:id="@+id/action_showProfileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_showProfileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="it.polito.timebank.ui.profile.EditProfileFragment"
+        android:label="show_profile_fragment"
+        tools:layout="@layout/show_profile_fragment" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_showProfileFragment"
+            app:destination="@id/showProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="it.polito.timebank.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_skillFragment"
+            app:destination="@id/skillFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillFragment"
+        android:name="it.polito.timebank.ui.SkillFragment"
+        android:label="skill_item_list"
+        tools:layout="@layout/skill_item_list" >
+        <action
+            android:id="@+id/action_skillFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_skillFragment_to_timeSlotListFragment"
+            app:destination="@id/timeSlotListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="it.polito.timebank.ui.chat.ChatFragment"
+        android:label="chat_fragment"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chat_to_timeSlotDetailsFragment"
+            app:destination="@id/timeSlotDetailsFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_chatDetailsFragment"
+            app:destination="@id/chatDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatDetailsFragment"
+        android:name="it.polito.timebank.ui.timeslot.ChatDetailsFragment"
+        android:label="ChatDetailsFragment" >
+        <action
+            android:id="@+id/action_chatDetailsFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+</navigation>

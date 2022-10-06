@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filter_timeslot">
+
+    <item
+        android:id="@+id/all_timeslots"
+        android:orderInCategory="100"
+        android:title="All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/today_date_filter"
+        android:orderInCategory="100"
+        android:title="Today"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tomorrow_date_filter"
+        android:orderInCategory="100"
+        android:title="Tomorrow"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/week_date_filter"
+        android:orderInCategory="100"
+        android:title="This Week"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/month_date_filter"
+        android:orderInCategory="100"
+        android:title="This Month"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/location_filter"
+        android:orderInCategory="100"
+        android:title="Location"
+        app:showAsAction="never" />
+
+
+
+</menu>

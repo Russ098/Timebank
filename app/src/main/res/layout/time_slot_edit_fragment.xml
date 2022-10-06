@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/time_slot_edit_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.timeslot.TimeSlotDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_of_your_advertisement"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/title_tsedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ts_title_hint"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:paddingBottom="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColorHint="#78909C"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/descriptionTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/description_of_your_advertisement"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/description_tsedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ts_description_hint"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:paddingBottom="16dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/editDateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/when_will_you_be_available"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/date"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <EditText
+                    android:id="@+id/editDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/dd_mm_yyyy"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    android:inputType="date"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/time"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <EditText
+                    android:id="@+id/editTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:hint="@string/hh_mm"
+                    android:inputType="time"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/durationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/how_much_time_will_you_be_available_in_minutes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/duration_tsedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ts_duration_hint"
+                android:importantForAutofill="no"
+                android:inputType="time"
+                android:paddingBottom="16dp"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/locationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/where_will_you_be_available"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/location_tsedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ts_location_hint"
+                android:importantForAutofill="no"
+                android:inputType="textPostalAddress"
+                android:paddingBottom="16dp"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/skillsRequired_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Skill (just one skill):"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/skillsRequired_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Skills"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/details_tsedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/ts_details_hint"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:paddingBottom="16dp"
+                android:textColorHint="#757575"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/add_item"
+        android:textColor="@color/white"
+        tools:visibility="invisible" />
+
+</FrameLayout>

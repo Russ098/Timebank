@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TimeBank</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tslist">Advertisements</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="ts_title_hint">Title</string>
+    <string name="ts_description_hint">Offered service\'s description</string>
+    <string name="ts_date_time_hint">Starting date and time</string>
+    <string name="ts_duration_hint">Duration in minutes</string>
+    <string name="ts_location_hint">Location</string>
+    <string name="ts_details_hint">Other details</string>
+
+    <string name="durationTV_details">Available for:</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="select_picture">Select picture</string>
+    <string name="profile_full_name">Full name:</string>
+    <string name="profile_nickname">Nickname:</string>
+    <string name="profile_email">Email:</string>
+    <string name="profile_location">Location:</string>
+    <string name="profile_skills">Skills:</string>
+    <string name="profile_description">Description:</string>
+    <string name="profile_full_name_hint">Insert your full name</string>
+    <string name="profile_nickname_hint">Insert your nickname</string>
+    <string name="profile_email_hint">Insert your email</string>
+    <string name="profile_location_hint">Insert your location</string>
+    <string name="profile_skills_hint">Insert your skills</string>
+    <string name="profile_description_hint">Insert a brief description</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="camera">Camera</string>
+
+    <string name="empty_list">Empty list</string>
+    <string name="edit">edit</string>
+    <string name="title_of_your_advertisement">Title of your advertisement</string>
+    <string name="description_of_your_advertisement">Description of your advertisement</string>
+    <string name="when_will_you_be_available">When will you be available?</string>
+    <string name="date">Date:</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="time">Time:</string>
+    <string name="hh_mm">hh:mm</string>
+    <string name="how_much_time_will_you_be_available_in_minutes">How much time will you be available? (in minutes)</string>
+    <string name="where_will_you_be_available">Where will you be available?</string>
+    <string name="add_item">Add Item</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="your_web_client_id" tools:ignore="TypographyDashes">49345819166-o12u39qg5n1p52ccnsktvbh6etfcuisk.apps.googleusercontent.com</string>
+
+</resources>

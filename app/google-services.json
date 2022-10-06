@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49345819166",
+    "project_id": "lab4-c9b85",
+    "storage_bucket": "lab4-c9b85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49345819166:android:1b3e51a05c83ad1657f40f",
+        "android_client_info": {
+          "package_name": "it.polito.timebank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49345819166-e1hb1rsnmkude32mffpihntk7nntqk9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.polito.timebank",
+            "certificate_hash": "11848f9c3d1df531dfc060fdb53b1c3ec3fe6dba"
+          }
+        },
+        {
+          "client_id": "49345819166-fbrpam0a5e3vmn34groei0hgpgah4q1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.polito.timebank",
+            "certificate_hash": "a9dc46b8b70793bb876619297d7fb36836d50d7d"
+          }
+        },
+        {
+          "client_id": "49345819166-o12u39qg5n1p52ccnsktvbh6etfcuisk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxSZRp38NAaI2yXeLQjLQXuNEwiC7XqPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49345819166-o12u39qg5n1p52ccnsktvbh6etfcuisk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
